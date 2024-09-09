@@ -30,3 +30,4 @@ airport
 ### Tehtävä 10
 "Viiteavain sekä goaltauluun että game-tauluun"
 
+![Tietokannan suunnittelu](https://github.com/Kasanen/tietokannat/blob/main/Viikko_1/Tietokannan%20suunnittelu.png?raw=true)

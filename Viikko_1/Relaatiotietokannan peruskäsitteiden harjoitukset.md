@@ -74,3 +74,5 @@ goal_id, game_id
 
 ### Tehtävä 25
 2
+
+![Relaatiotietokannat](https://github.com/Kasanen/tietokannat/blob/main/Viikko_1/Relaatiotietokannat.png?raw=true)
