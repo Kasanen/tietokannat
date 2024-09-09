@@ -10,7 +10,7 @@ where iso_country in(
     where name like "Satsuma%"
 );
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_4/images_sisa/4.1.png?raw=true)
 
 ### Tehtävä 2
 ```sql
@@ -22,7 +22,7 @@ where iso_country in(
     where name ="Monaco"
 );
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_4/images_sisa/4.2.png?raw=true)
 
 ### Tehtävä 3
 ```sql
@@ -38,7 +38,7 @@ where id in(
     )
 );
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_4/images_sisa/4.3.png?raw=true)
 
 ### Tehtävä 4
 ```sql
@@ -49,7 +49,7 @@ where iso_country not in(
     from airport
 );
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_4/images_sisa/4.4.png?raw=true)
 
 ### Tehtävä 5
 ```sql
@@ -65,4 +65,4 @@ where id not in(
     )
 );
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_4/images_sisa/4.5.png?raw=true)
