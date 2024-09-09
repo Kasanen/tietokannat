@@ -7,7 +7,7 @@ from country, airport
 where airport.iso_country = country.iso_country
 and country.name = "Iceland";
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_3/images/2.3.1.png?raw=true)
 
 ### Tehtävä 2
 ```sql
@@ -16,7 +16,7 @@ from country, airport
 where airport.iso_country = country.iso_country
 and country.name = "France" and airport.type = "large_airport";
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_3/images/2.3.2.png?raw=true)
 
 ### Tehtävä 3
 ```sql
@@ -25,7 +25,7 @@ from country, airport
 where airport.iso_country = country.iso_country
 and country.continent = "AN";
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_3/images/2.3.3.png?raw=true)
 
 ### Tehtävä 4
 ```sql
@@ -33,7 +33,7 @@ select elevation_ft
 from airport, game
 where location = ident and screen_name ="Heini";
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_3/images/2.3.4.png?raw=true)
 
 ### Tehtävä 5
 ```sql
@@ -41,7 +41,7 @@ select elevation_ft * 0.3048 as elevation_m
 from airport, game
 where location = ident and screen_name ="Heini";
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_3/images/2.3.5.png?raw=true)
 
 ### Tehtävä 6
 ```sql
@@ -50,7 +50,7 @@ from airport, game
 where game.location = airport.ident
 and game.screen_name = "Ilkka";
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_3/images/2.3.6.png?raw=true)
 
 ### Tehtävä 7
 ```sql
@@ -60,7 +60,7 @@ where game.location = airport.ident
 and airport.iso_country = country.iso_country
 and game.screen_name = "Ilkka";
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_3/images/2.3.7.png?raw=true)
 
 ### Tehtävä 8
 ```sql
@@ -68,7 +68,7 @@ select name
 from goal, goal_reached, game
 where game.id = game_id and goal.id = goal_id and screen_name = "Heini";
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_3/images/2.3.8.png?raw=true)
 
 ### Tehtävä 9
 ```sql
@@ -79,7 +79,7 @@ and goal.id = goal_id
 and airport.ident = location
 and screen_name = "Ilkka";
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_3/images/2.3.9.png?raw=true)
 
 ### Tehtävä 10
 ```sql
@@ -91,5 +91,5 @@ and airport.ident = location
 and country.iso_country = airport.iso_country
 and screen_name = "Ilkka";
 ```
-![Tehtävä](?raw=true)
+![Tehtävä](https://github.com/Kasanen/tietokannat/blob/main/Viikko_3/images/2.3.10.png?raw=true)
 
